@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityEntry">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/adminlogo"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Petugas"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/logo"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/pembayaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pembayaran"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="75dp"
+            android:shadowColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/datasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/datasiswa"
+            android:layout_toRightOf="@+id/pembayaran"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="35dp"
+            android:shadowColor="@android:color/black"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

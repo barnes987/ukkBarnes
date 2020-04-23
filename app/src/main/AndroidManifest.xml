@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ukk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityHistory"></activity>
+        <activity android:name=".ActivityDataPembayaran" />
+        <activity android:name=".ActivityEditSPP" />
+        <activity android:name=".ActivitySPPCreate" />
+        <activity android:name=".ActivityKelasCreate" />
+        <activity android:name=".ActivityPembayaran" />
+        <activity android:name=".DataSiswaPetugas" />
+        <activity android:name=".ActivitySiswa" />
+        <activity android:name=".LoginLevel" />
+        <activity android:name=".ActivityEntry" />
+        <activity android:name=".ActivityEditSiswa" />
+        <activity android:name=".ActivityLoginSiswa" />
+        <activity android:name=".HistorySPP" />
+        <activity android:name=".DataPetugas" />
+        <activity android:name=".DataKelas" />
+        <activity android:name=".DataSPP" />
+        <activity android:name=".ActivityDataSiswa" />
+        <activity android:name=".ActivitySiswaCreate" />
+        <activity android:name=".admin" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityLogin" />
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ukk.ActivityEditSiswa">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/snisnupdate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="nisn"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/snamaupdate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snisnupdate"
+            android:layout_marginLeft="20dp"
+            android:hint="Nama"/>
+
+        <EditText
+            android:id="@+id/skelasupdate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snamaupdate"
+            android:layout_marginLeft="20dp"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/stelpupdate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/skelasupdate"
+            android:layout_marginLeft="20dp"
+            android:hint="Deskripsi"/>
+
+        <EditText
+            android:id="@+id/salamatupdate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stelpupdate"
+            android:layout_marginLeft="20dp"
+            android:hint="Deskripsi"/>
+
+        <Button
+            android:id="@+id/buttonupdates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/salamatupdate"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
